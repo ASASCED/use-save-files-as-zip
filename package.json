@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "use-files-as-zip",
+  "name": "use-save-files-as-zip",
   "author": "Jesus Jimenez Cordero",
   "module": "dist/example.esm.js",
   "size-limit": [

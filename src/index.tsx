@@ -6,7 +6,7 @@ import JSZip from 'jszip';
 import JSZipUtils from 'jszip-utils';
 import saveAs from 'save-as';
 
-export const useFilesAsZip = (initialState: File[] = []) => {
+export const useSaveFilesAsZip = (initialState: File[] = []) => {
   const [files, setFiles] = useState<File[]>(initialState);
   const [urls, setUrls] = useState<string[]>([] as string[]);
 
