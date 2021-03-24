@@ -12,9 +12,9 @@ Install library `npm install use-files-as-zip`
 // The initialState is optional but if we need to add it just add a File array
 const { setFilesAsZip, saveAsZip } = useFilesAsZip();
 
-// Here we can add all the files that we need to add to the ZIP file.
+// Here we can add all the files that we need to add to generate the ZIP file.
 setFilesAsZip(files);
-// Here we execute the instruccion to download the ZIP File
+// Here we execute the instruccion to download the ZIP file
 saveAsZip();
 ```
 
@@ -23,10 +23,10 @@ saveAsZip();
 ```typescript
 const { files, urls } = useFilesAsZip();
 
-files; // All the files that you add on the new
-urls; // It is an array that contains all the urls from the files and with this we can download indivitually
+files; // All the files that you add to generate the ZIP file
+urls; // It is an array that contains all the urls from the files and with this you can download indivitually
 
-// Example download with an image
+// Example to download any file
 <a href={urls[0]} download>
   Download
 </a>;
