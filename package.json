@@ -10,6 +10,16 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react-zip",
+    "zip-files",
+    "save-zip",
+    "download-zip",
+    "save-as-a-zip",
+    "reazt-files",
+    "zip",
+    "img-zip"
+  ],
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
