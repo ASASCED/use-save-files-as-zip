@@ -4,7 +4,9 @@ This is a basic library to pass an array of Files and generate a zip file and do
 
 ## Commands
 
-Install library `npm install use-files-as-zip`
+Install library
+
+`npm install use-save-files-as-zip`
 
 ## How to use
 
